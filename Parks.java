@@ -25,7 +25,7 @@ public class Parks{
 
 	@Nullable
 
-	@ColumnInfo(name = "parksTitle")
+	@ColumnInfo(name = "parksName")
 
 	private String mName; //nome do parque
 
@@ -82,7 +82,7 @@ public class Parks{
 		return mLocation;
 	}
 
-	public void setSinger(String mLocation) {
+	public void setLocation(String mLocation) {
 		mLocation = Location;
 	}
 
